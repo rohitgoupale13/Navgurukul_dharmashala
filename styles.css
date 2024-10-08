@@ -131,10 +131,10 @@ section .title::after {
   -webkit-text-fill-color: transparent;
   background-clip: border-box;
   -webkit-background-clip: text;
-  animation: slide 8s linear infinite forwards;
+  animation: co 8s linear infinite forwards;
 }
 
-@keyframes slide {
+@keyframes co {
   0% {
     background-position-x: 0%;
   }
